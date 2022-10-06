@@ -4,6 +4,7 @@
     .content-home {
         max-width: 1440px;
         margin: 0 auto;
+
         padding: 1rem 5rem;
 
         h1 {
@@ -13,14 +14,14 @@
             color: #FFFFFF;
             margin-top: 4.5rem;
         }
-        
+
         .filter-form {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin: 2.5rem 0 0 0;
 
-            div {
+            div{
                 display: flex;
                 flex-direction: column;
                 width: 48%;
@@ -54,7 +55,8 @@
             border-radius: 8px;
             padding: 1.6rem 2rem;
             width: 100%;
-
+        
+        
             thead {
                 th {
                     text-align: initial;
@@ -64,7 +66,7 @@
                     color: var(--grey-400);
                 }
             }
-
+        
             tbody {
                 td {
                     border-top: 1px solid rgba(161, 161, 170, 0.3);
@@ -74,7 +76,7 @@
                     color: var(--white-400);
                     padding: 0.75rem 0;
                 }
-
+        
                 button {
                     background: var(--dark-500);
                     border-radius: 4px;
